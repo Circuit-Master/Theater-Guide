@@ -1,25 +1,34 @@
 body {
   font-family: sans-serif;
-  background: #f9f9f9;
   text-align: center;
 }
 
-.mixer-svg {
+svg {
   width: 90%;
-  max-width: 1000px;
-  height: auto;
   border: 1px solid #ccc;
 }
 
-/* Hotspot base */
-.cls-1 {
-  fill: transparent;       /* invisible but clickable */
-  stroke: red;             /* debug outline */
+/* Hotspot rectangles */
+.hotspot {
+  fill: transparent;
+  stroke: red;      /* for testing, remove when ready */
   stroke-width: 1;
   cursor: pointer;
 }
 
-/* Hover highlight */
-.cls-1:hover {
-  fill: rgba(255, 0, 0, 0.2);
+.hotspot:hover {
+  fill: rgba(255,0,0,0.2);
+}
+
+/* Tooltip styling */
+.tooltip {
+  position: absolute;
+  background: #222;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  pointer-events: none;
+  font-size: 14px;
+  display: none;
+  z-index: 1000;
 }

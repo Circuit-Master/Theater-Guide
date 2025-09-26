@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>MGP16X Interactive Guide</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<title>MGP16X Interactive Guide</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>MGP16X Mixer Interactive Guide</h1>
+<h1>MGP16X Mixer Interactive Guide</h1>
 
-  <!-- Inline the SVG or load it directly -->
-  <object type="image/svg+xml" data="resources/svg/mixer.svg" class="mixer-svg"></object>
+<!-- Tooltip div -->
+<div id="tooltip" class="tooltip"></div>
 
+<!-- Inline the SVG -->
+<svg id="mixer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <image href="resources/images/mixer.png" x="0" y="0" width="2000" height="2000"/>
+
+  <g id="Hotspots">
+    <rect id="Phantom_Power" class="hotspot" x="181.23" y="274.21" width="71.23" height="42.13" data-tooltip="Phantom Power: Supplies +48V to condenser mics"/>
+    <rect id="_-26dB" class="hotspot" x="170.25" y="320.42" width="42.13" height="48.26" data-tooltip="-26dB Pad: Reduces input sensitivity"/>
+    <rect id="Low_Cut" class="hotspot" x="216.85" y="320.42" width="35.62" height="48.26" data-tooltip="Low Cut: Filters out low rumble and stage noise"/>
+    <!-- Add other hotspots here -->
+  </g>
+</svg>
+
+<script>
+const tooltip = document.getElementById('tooltip');
+document.querySelectorAll('.hotspot').forEach(el => {
+  el.addEventListener('mousemove', e => {
+    tooltip.style.left = e.pageX + 10 + 'px';
+    tooltip.style.top = e.pageY + 10 + 'px';
+    tooltip.textContent = el.dataset.tooltip;
+    tooltip.style.display = 'block';
+  });
+  el.addEventListener('mouseleave', () => {
+    tooltip.style.display = 'none';
+  });
+});
+</script>
 </body>
 </html>
