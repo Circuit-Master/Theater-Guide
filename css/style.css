@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.mixer-svg {
+  width: 90%;
+  max-width: 1000px;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+/* Hotspot base */
+.cls-1 {
+  fill: transparent;       /* invisible but clickable */
+  stroke: red;             /* debug outline */
+  stroke-width: 1;
+  cursor: pointer;
+}
+
+/* Hover highlight */
+.cls-1:hover {
+  fill: rgba(255, 0, 0, 0.2);
+}
