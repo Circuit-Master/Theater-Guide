@@ -11,13 +11,13 @@ svg {
 /* Hotspot rectangles */
 .hotspot {
   fill: transparent;
-  stroke: red;      /* for testing, remove when ready */
+  stroke: rgba(255, 0, 0, 0);      /* for testing, remove when ready */
   stroke-width: 1;
   cursor: pointer;
 }
 
 .hotspot:hover {
-  fill: rgba(255,0,0,0.2);
+  fill: rgba(255, 0, 0, 0);
 }
 
 /* Tooltip styling */

@@ -12,16 +12,22 @@
 <div id="tooltip" class="tooltip"></div>
 
 <!-- Inline the SVG -->
-<svg id="mixer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
-  <image href="resources/images/mixer.png" x="0" y="0" width="2000" height="2000"/>
+<svg id="mixer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1922 2000">
+  <image href="resources\images\Mixer_Top_View.avif" x="0" y="0" width="1922" height="2000"/>
 
   <g id="Hotspots">
-    <rect id="Phantom_Power" class="hotspot" x="181.23" y="274.21" width="71.23" height="42.13" data-tooltip="Phantom Power: Supplies +48V to condenser mics"/>
-    <rect id="_-26dB" class="hotspot" x="170.25" y="320.42" width="42.13" height="48.26" data-tooltip="-26dB Pad: Reduces input sensitivity"/>
-    <rect id="Low_Cut" class="hotspot" x="216.85" y="320.42" width="35.62" height="48.26" data-tooltip="Low Cut: Filters out low rumble and stage noise"/>
-    <!-- Add other hotspots here -->
+    <rect id="Phantom_Power" class="hotspot" x="251" y="341" width="63" height="41" data-tooltip="Phantom Power: Supplies +48V to condenser mics"/>
+    <rect id="_26dB" class="hotspot" x="240.11" y="384.62" width="42.39" height="46.98" data-tooltip="+26dB Pad: Increases input sensitivity"/>
+    <rect id="_100Hz_low_cut" class="hotspot" x="282.5" y="384.62" width="31.5" height="43.91" data-tooltip="100Hz Low Cut: Filters out low rumble"/>
+    <rect id="Gain_Knob" class="hotspot" x="236.02" y="436.7" width="78.13" height="71.49" data-tooltip="Gain Knob: Adjusts input level"/>
+    <rect id="Compression_knob" class="hotspot" x="232.96" y="540.36" width="81.19" height="88.85" data-tooltip="Compression Knob: Controls dynamic range"/>
+    <rect id="High_EQ_Knob" class="hotspot" x="232.96" y="629.21" width="81.19" height="65.87" data-tooltip="High EQ Knob: Adjusts treble frequencies"/>
+    <rect id="Mid__EQ_Knob" class="hotspot" x="232.96" y="758.4" width="83.23" height="64.34" data-tooltip="Mid EQ Knob: Adjusts midrange frequencies"/>
+    <rect id="Mid_Freq_Selector_EQ_Knob" class="hotspot" x="232.96" y="695.09" width="83.23" height="63.32" data-tooltip="Mid Frequency Selector: Chooses midrange frequency to adjust"/>
+    <rect id="low_EQ_Knob" class="hotspot" x="232.96" y="822.74" width="83.23" height="64.85" data-tooltip="Low EQ Knob: Adjusts bass frequencies"/>
   </g>
 </svg>
+
 
 <script>
 const tooltip = document.getElementById('tooltip');
