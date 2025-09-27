@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1922 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect id="Phantom_Power" class="cls-1" x="251" y="341" width="63" height="41"/>
+    <rect id="_26dB" data-name="+26dB" class="cls-1" x="240.11" y="384.62" width="42.39" height="46.98"/>
+    <rect id="_100Hz_low_cut" data-name="100Hz_low_cut" class="cls-1" x="282.5" y="384.62" width="31.5" height="43.91"/>
+    <rect id="Gain_Knob" class="cls-1" x="236.02" y="436.7" width="78.13" height="71.49"/>
+    <rect id="Compression_knob" class="cls-1" x="232.96" y="540.36" width="81.19" height="88.85"/>
+    <rect id="High_EQ_Knob" class="cls-1" x="232.96" y="629.21" width="81.19" height="65.87"/>
+    <rect id="Mid__EQ_Knob" class="cls-1" x="232.96" y="758.4" width="83.23" height="64.34"/>
+    <rect id="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="232.96" y="695.09" width="83.23" height="63.32"/>
+    <rect id="low_EQ_Knob" class="cls-1" x="232.96" y="822.74" width="83.23" height="64.85"/>
+  </g>
+</svg>
