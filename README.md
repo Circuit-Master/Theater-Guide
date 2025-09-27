@@ -21,7 +21,7 @@ Theater-Guide/
 ├── Resources # Images, SVGs, and extra assets  
 ├── mixing-guide.txt  
 └──images  
-|   └── Mixer_Top_View.avif  
+|     └── Mixer_Top_View.avif  
 └── svgs/  
      └── Mixer_Top_View.svg
      
@@ -44,5 +44,6 @@ If you’d like to suggest changes or contribute improvements:
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](https://logan.mit-license.org/) for details.
+
 
 
