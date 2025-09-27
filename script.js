@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const tooltip = document.getElementById('tooltip');
-  const tipTitle = tooltip.querySelector('.title');
-  const tipBody  = tooltip.querySelector('.body');
+  const tipTitle = tooltip?.querySelector('.title');
+  const tipBody  = tooltip?.querySelector('.body');
   const detailPane = document.getElementById('detail-pane');
   const detailTitle = document.getElementById('detail-title');
   const detailText = document.getElementById('detail-text');
@@ -9,22 +9,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function prettifyId(id) {
     if (!id) return '';
-    return id
-      .replace(/[_-]+/g, ' ')
-      .replace(/\b\w/g, c => c.toUpperCase())
-      .trim();
+    return id.replace(/[_-]+/g, ' ')
+             .replace(/\b\w/g, c => c.toUpperCase())
+             .trim();
   }
 
-  // Hover tooltips
   document.querySelectorAll('#mixer-svg .hotspot').forEach(el => {
     el.addEventListener('mousemove', e => {
+      if (!tooltip) return;
       tooltip.style.left = (e.pageX + 12) + 'px';
       tooltip.style.top  = (e.pageY + 12) + 'px';
 
       const tt = el.dataset.tooltip || '';
-      const fallbackTitle = prettifyId(el.id);
-
-      let title = fallbackTitle;
+      let title = prettifyId(el.id);
       let body = tt;
 
       if (tt.includes('—') || tt.includes(':')) {
@@ -39,17 +36,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     el.addEventListener('mouseleave', () => {
-      tooltip.classList.remove('visible');
+      tooltip?.classList.remove('visible');
     });
 
-    // Open detail pane on click
     el.addEventListener('click', e => {
       e.stopPropagation();
       openDetail(el);
     });
   });
 
-  // Open / Close detail pane
   function openDetail(el) {
     detailTitle.textContent = prettifyId(el.id);
     detailText.textContent = el.dataset.detail || el.dataset.tooltip || '';
@@ -62,16 +57,31 @@ document.addEventListener('DOMContentLoaded', () => {
     detailPane.setAttribute('aria-hidden', 'true');
   }
 
-  // Global listeners
+  closeBtn?.addEventListener('click', closeDetail);
+
   document.addEventListener('click', e => {
     if (detailPane.classList.contains('active') && !detailPane.contains(e.target)) {
       closeDetail();
     }
   });
 
-  closeBtn.addEventListener('click', closeDetail);
-
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') closeDetail();
   });
+});
+document.addEventListener('DOMContentLoaded', () => {
+  const mixingContainer = document.getElementById('mixing-guide');
+
+  if (mixingContainer) {
+    fetch('resources/mixing-guide.txt')
+      .then(res => res.text())
+      .then(text => {
+        // Parse Discord-style Markdown to HTML
+        mixingContainer.innerHTML = marked.parse(text);
+      })
+      .catch(err => {
+        mixingContainer.textContent = 'Error loading mixing guide.';
+        console.error(err);
+      });
+  }
 });

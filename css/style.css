@@ -2,7 +2,7 @@
   --neon: #00f7ff;
   --neon2: #ff3aff;
   --bg-1: #03040a;
-  --panel-bg: rgba(8,8,16,0.88);
+  --panel-bg: rgba(8, 8, 16, 0.95);
   --muted: #cfd8e3;
 }
 
@@ -13,10 +13,7 @@ html,body {
 }
 body {
   font-family: Inter, sans-serif;
-  background:
-    radial-gradient(1200px 700px at 10% 10%, rgba(0,255,255,0.04), transparent 6%),
-    radial-gradient(900px 500px at 95% 90%, rgba(255,0,255,0.03), transparent 8%),
-    linear-gradient(180deg, #05060a 0%, #0b0b12 100%);
+  background: var(--bg-1);
   color: #e9eef8;
   padding: 24px;
   box-sizing: border-box;
@@ -163,4 +160,60 @@ svg#mixer-svg {
   line-height: 1.45;
   max-height: 56vh;
   overflow-y: auto;
+}
+/* Mixing guide container */
+#mixing-guide {
+  padding: 24px;
+  border: 2px solid var(--neon);
+  border-radius: 10px;
+  background: var(--bg-1);     /* same as page background */
+  color: var(--muted);
+  font-size: 16px;             /* bigger text */
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 24px auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6), 0 0 20px rgba(0,255,255,0.08);
+}
+
+/* Neon headers with softer glow */
+#mixing-guide h1,
+#mixing-guide h2,
+#mixing-guide h3 {
+  color: var(--neon);
+  text-shadow: 0 0 4px rgba(0, 247, 255, 0.4); /* softer glow */
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+/* Lists inside the guide */
+#mixing-guide ul,
+#mixing-guide ol {
+  margin: 10px 0 14px 1.4em;
+  padding-left: 0;
+  color: var(--muted);
+}
+
+#mixing-guide li {
+  margin-bottom: 8px;
+}
+
+/* Inline code */
+#mixing-guide code {
+  background: rgba(0,255,255,0.05);
+  color: var(--neon2);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+}
+
+/* Code blocks */
+#mixing-guide pre {
+  background: rgba(0,255,255,0.08);
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Fira Code', monospace;
+  color: var(--neon2);
+  font-size: 15px;
 }

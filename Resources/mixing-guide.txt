@@ -1,0 +1,174 @@
+# Live Sound Mixing Guide
+
+Mixing for a live audience is all about clarity, balance, and control. Your goal: make everything loud enough to be heard, clear, and free from feedback or distortion. Follow these steps, and all will be well even if you’ve never touched a mixer before.
+
+---
+
+## 1. Setup & Connections
+
+- **Microphones** → Plug into XLR inputs (1–16). Label them.  
+- **Instruments / line sources** → Plug into 1/4" jacks.  
+- **Speakers** → Connect LEFT/RIGHT outputs to speakers. 
+- **Monitors (if performers need them)** → Use AUX sends. Start quiet; performers can ask for more.  
+- **Cables** → Keep neat, avoid tangles or running next to power lines.  
+- **Pre-event music** → Play slightly detuned or EQ’d poorly so the live performance stands out.  
+
+---
+
+## 2. Gain Structure (Most Important Step)
+
+Always set gain before touching EQ or faders.  
+
+- Use **PFL (Pre-Fade Listen)** for each channel:  
+  1. Press PFL on the channel.  
+  2. Watch the level meters.  
+  3. Adjust **GAIN** until peaks reach ~0 dB but never hit CLIP.  
+  4. Turn off PFL and move to the next channel.
+
+Tips:  
+- If a channel is too quiet at max gain, check mic placement or source level.  
+- Pink noise can help roughly match levels before performers arrive.
+
+---
+
+## 3. Channel Strip Basics
+
+- **Gain / Trim** → Input sensitivity (set with PFL).  
+- **High EQ** → Adds brightness (vocals, cymbals).  
+- **Mid EQ** → Adds clarity (speech, melodic instruments).  
+- **Low EQ** → Adds warmth/punch (bass, kick).  
+- **Aux Sends** → Send to monitors or effects.  
+- **Pan** → Stereo position. Keep vocals centered.  
+- **Channel Fader** → Final volume in main mix.  
+
+Tip: Make small EQ adjustments; large boosts can cause feedback.
+
+---
+
+## 4. Vocal Mixing
+
+- Vocals must sit on top of everything else.  
+- Cut low frequencies (<100 Hz) to remove rumble.  
+- Slight high boost (5–8 kHz) for clarity, but avoid harsh sibilance.  
+- Use light reverb for natural sound.  
+
+Tip: Walk the room to hear how vocals sound at different positions.
+
+---
+
+## 5. Instrument Mixing
+
+- **Kick & bass** → Provide foundation. Boost lows, cut muddy mids.  
+- **Guitars / keyboards** → Cut lows to avoid clashing with bass; emphasize mids/highs.  
+- **Drums** → Focus on kick, snare, overheads. Don’t push every mic equally.  
+- **Multiple instruments** → Leave space in the mix; don’t cram every frequency.  
+
+Pro tip: Detune pre-event music slightly to make live instruments stand out.
+
+---
+
+## 6. Fader Balancing
+
+1. Start with all faders down.  
+2. Bring up kick and bass → foundation.  
+3. Add vocals → must be clear.  
+4. Bring in other instruments one by one.  
+5. Listen to the full mix, not just individual channels.
+
+---
+
+## 7. Monitors
+
+- Use AUX knobs to create monitor mixes.  
+- Start quiet; ask performers if they need more or less.  
+- Avoid excessive low end to reduce feedback.  
+- Pan instruments for comfort (guitar left, keys right).  
+
+---
+
+## 8. Feedback Prevention
+
+- Feedback = loud squeal/ringing.  
+- Causes: mic too close to speaker, gain too high, bad EQ.  
+- Fix: lower mic gain, reduce monitor send, cut problem EQ frequency.
+
+---
+
+## 9. Effects (Reverb / Delay)
+
+- Use sparingly; too much muddies the mix.  
+- Reverb → Adds space, mostly for vocals.  
+- Delay → Only if style calls for it.  
+- Return effects to a channel to control EQ & level.  
+
+Tip: Exaggerate slightly during soundcheck to ensure audibility.
+
+---
+
+## 10. Master Fader
+
+- Keep near 0 dB (unity).  
+- Balance with channel faders, not master.  
+- Watch meters — never clip.  
+- Check mix at multiple points in the room.
+
+---
+
+## 11. Quick Soundcheck
+
+- Say “ONE, ONE, ONE” and “CHECK, CHECK” into the mic loudly to check for low end and feedback issues.
+- Perform a **line check** with each performer before the show:
+1. Have the performer speak or sing **one line at a time**
+2. Confirm the signal is reaching the mixer and adjust **gain** for proper level.  
+3. Repeat for each mic or channel.  
+4. Bring in instruments one by one and set their faders.  
+5. Walk the room to make sure everything is balanced.
+
+Tips:  
+- Keep instructions short and simple.  
+- Listen carefully for any buzzing, hum, or potential feedback.  
+- Make small adjustments; avoid drastic changes.
+
+---
+
+## 12. Mixing for the Audience
+
+- Mix for middle/back of the room, not just front row.  
+- Keep one ear on the room and one eye on the meters at all time.  
+- Adjust very subtly/slowly during performance.  
+- Reduce high frequencies slightly in reflective rooms.
+
+---
+
+## 13. Quick Rules of Thumb
+
+- Vocals first; everything else supports them.  
+- EQ → Cut rather than boost when possible.  
+- Gain → Always set with PFL.  
+- Faders → Use for balance, not gain.  
+- Effects → Less is more.  
+- Master → Stay near 0 dB.  
+- Pre-event music → Slight detuning enhances live performance.
+
+---
+
+## 14. Extra Tips
+
+- Leave 3–6 dB headroom on master fader.  
+- Label cables and channels.  
+- Listen for booming lows or harsh highs and adjust.  
+- Stay calm and make gradual adjustments.
+
+---
+
+## Summary
+
+1. Set **gain** with PFL.  
+2. Balance with **faders**.  
+3. Shape with **EQ**.  
+4. Add **effects lightly**.  
+5. Keep **vocals clear**.  
+6. Avoid **feedback**.  
+7. Monitor the room.  
+8. Use **pre-event music tricks** (detune) to make live performance shine.  
+9. Perform a **quick line check**: each performer says “ONE, ONE, ONE” or “CHECK, CHECK” to confirm mic signal.
