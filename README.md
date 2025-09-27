@@ -14,15 +14,15 @@ The interface is styled with a **neon theme** for clarity and modern aesthetics.
 ---
 
 ## Project Structure
-Theater-Guide/
-├── index.html # Main entry point
-├── style.css # Neon theme styles
-├── script.js # Interactive logic
-├── Resources # Images, SVGs, and extra assets
-├── mixing-guide.txt
-└──images
-|   └── Mixer_Top_View.avif
-└── svgs/
+Theater-Guide/  
+├── index.html # Main entry point  
+├── style.css # Neon theme styles  
+├── script.js # Interactive logic  
+├── Resources # Images, SVGs, and extra assets  
+├── mixing-guide.txt  
+└──images  
+|   └── Mixer_Top_View.avif  
+└── svgs/  
      └── Mixer_Top_View.svg
      
 ---
@@ -44,4 +44,5 @@ If you’d like to suggest changes or contribute improvements:
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](https://logan.mit-license.org/) for details.
+
 
