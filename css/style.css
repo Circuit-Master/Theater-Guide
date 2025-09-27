@@ -32,3 +32,28 @@ svg {
   display: none;
   z-index: 1000;
 }
+.detail-pane {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 300px;
+  max-height: 80vh;
+  padding: 16px;
+  background: #fff;
+  border: 2px solid #444;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  display: none;
+  flex-direction: column;
+  z-index: 9999;
+}
+.detail-pane h2 {
+  margin-top: 0;
+}
+.detail-pane button {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1922 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #db1f26;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+
+  <g id="Top_Layer" data-name="Top Layer">
+    <g id="ch1">
+      <rect id="Phantom_Power" class="cls-1" x="249.97" y="337.43" width="63" height="41" data-tooltip="Phantom Power: 48V for condenser mics. Disable for dynamic mics."/>
+      <rect id="_26dB" data-name="+26dB" class="cls-1" x="239.07" y="381.04" width="42.39" height="46.98" data-tooltip="+26dB Pad: Lowers input level for loud sources."/>
+      <rect id="_100Hz_low_cut" data-name="100Hz_low_cut" class="cls-1" x="281.47" y="381.04" width="31.5" height="43.91" data-tooltip="Low Cut: Removes low-frequency rumble."/>
+      <rect id="Gain_Knob" class="cls-1" x="234.99" y="433.13" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume. Use PFL to check."/>
+      <rect id="Compression_knob" class="cls-1" x="231.93" y="536.79" width="81.19" height="88.85" data-tooltip="Compression: Smooths out volume peaks."/>
+      <rect id="High_EQ_Knob" class="cls-1" x="231.93" y="625.64" width="81.19" height="65.87" data-tooltip="High EQ: Boost or cut treble frequencies."/>
+      <rect id="Mid__EQ_Knob" class="cls-1" x="231.93" y="754.83" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for clarity."/>
+      <rect id="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="231.93" y="691.51" width="83.23" height="63.32" data-tooltip="Mid Freq: Selects mid EQ frequency."/>
+      <rect id="low_EQ_Knob" class="cls-1" x="231.93" y="819.17" width="83.23" height="64.85" data-tooltip="Low EQ: Boost or cut bass."/>
+      <rect id="Aux1_Gain" class="cls-1" x="231.93" y="884.02" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects."/>
+      <rect id="Aux2_Gain" class="cls-1" x="231.93" y="957.39" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX."/>
+      <rect id="Preamp_selector" data-name="Preamp selector" class="cls-1" x="278.22" y="1031.26" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type or gain."/>
+      <rect id="Effects_1_knob" data-name="Effects 1 knob" class="cls-1" x="231.93" y="1052.7" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level."/>
+      <rect id="effects_2_knob" data-name="effects 2 knob" class="cls-1" x="231.93" y="1114.32" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level."/>
+      <rect id="pan_knob" data-name="pan knob" class="cls-1" x="231.93" y="1177.3" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position in mix."/>
+      <rect id="channel_on_btn" data-name="channel on btn" class="cls-1" x="257.46" y="1254.24" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="peak_light" data-name="peak light" class="cls-1" x="281.97" y="1431.94" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload."/>
+      <rect id="sig_light" data-name="sig light" class="cls-1" x="281.97" y="1460.53" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send" data-name="group 1-2 send" class="cls-1" x="282.31" y="1494.58" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send" data-name="group 3-4 send" class="cls-1" x="282.31" y="1542.24" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send" data-name="stereo send" class="cls-1" x="282.31" y="1582.75" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn" data-name="pfl btn" class="cls-1" x="284.69" y="1660.36" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light" data-name="pfl active light" class="cls-1" x="284.69" y="1633.13" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider" data-name="level slider" class="cls-1" x="233.97" y="1431.94" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="ch2">
+      <rect id="Phantom_Power-2" data-name="Phantom_Power" class="cls-1" x="338" y="337.54" width="63" height="41" data-tooltip="Phantom Power: 48V for condenser mics. Disable for dynamic mics."/>
+      <rect id="_26dB-2" data-name="+26dB" class="cls-1" x="327.1" y="381.15" width="42.39" height="46.98" data-tooltip="+26dB Pad: Lowers input level for loud sources."/>
+      <rect id="_100Hz_low_cut-2" data-name="100Hz_low_cut" class="cls-1" x="369.5" y="381.15" width="31.5" height="43.91" data-tooltip="Low Cut: Removes low-frequency rumble."/>
+      <rect id="Gain_Knob-2" data-name="Gain_Knob" class="cls-1" x="323.02" y="433.24" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume. Use PFL to check."/>
+      <rect id="Compression_knob-2" data-name="Compression_knob" class="cls-1" x="319.95" y="536.9" width="81.19" height="88.85" data-tooltip="Compression: Smooths out volume peaks."/>
+      <rect id="High_EQ_Knob-2" data-name="High_EQ_Knob" class="cls-1" x="319.95" y="625.75" width="81.19" height="65.87" data-tooltip="High EQ: Boost or cut treble frequencies."/>
+      <rect id="Mid__EQ_Knob-2" data-name="Mid__EQ_Knob" class="cls-1" x="319.95" y="754.94" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for clarity."/>
+      <rect id="Mid_Freq_Selector_EQ_Knob-2" data-name="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="319.95" y="691.62" width="83.23" height="63.32" data-tooltip="Mid Freq: Selects mid EQ frequency."/>
+      <rect id="low_EQ_Knob-2" data-name="low_EQ_Knob" class="cls-1" x="319.95" y="819.28" width="83.23" height="64.85" data-tooltip="Low EQ: Boost or cut bass."/>
+      <rect id="Aux1_Gain-2" data-name="Aux1_Gain" class="cls-1" x="319.95" y="884.13" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects."/>
+      <rect id="Aux2_Gain-2" data-name="Aux2_Gain" class="cls-1" x="319.95" y="957.49" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX."/>
+      <rect id="Preamp_selector-2" data-name="Preamp selector" class="cls-1" x="366.25" y="1031.37" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type or gain."/>
+      <rect id="Effects_1_knob-2" data-name="Effects 1 knob" class="cls-1" x="319.95" y="1052.81" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level."/>
+      <rect id="effects_2_knob-2" data-name="effects 2 knob" class="cls-1" x="319.95" y="1114.43" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level."/>
+      <rect id="pan_knob-2" data-name="pan knob" class="cls-1" x="319.95" y="1177.41" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position in mix."/>
+      <rect id="channel_on_btn-2" data-name="channel on btn" class="cls-1" x="345.49" y="1254.34" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="peak_light-2" data-name="peak light" class="cls-1" x="370" y="1432.05" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload."/>
+      <rect id="sig_light-2" data-name="sig light" class="cls-1" x="370" y="1460.64" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-2" data-name="group 1-2 send" class="cls-1" x="370.34" y="1494.69" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-2" data-name="group 3-4 send" class="cls-1" x="370.34" y="1542.34" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-2" data-name="stereo send" class="cls-1" x="370.34" y="1582.86" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-2" data-name="pfl btn" class="cls-1" x="372.72" y="1660.47" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-2" data-name="pfl active light" class="cls-1" x="372.72" y="1633.24" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-2" data-name="level slider" class="cls-1" x="322" y="1432.05" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="ch3">
+      <rect id="Phantom_Power-3" data-name="Phantom_Power" class="cls-1" x="426.03" y="337.75" width="63" height="41" data-tooltip="Phantom Power: 48V for condenser mics. Disable for dynamic mics."/>
+      <rect id="_26dB-3" data-name="+26dB" class="cls-1" x="415.13" y="381.37" width="42.39" height="46.98" data-tooltip="+26dB Pad: Lowers input level for loud sources."/>
+      <rect id="_100Hz_low_cut-3" data-name="100Hz_low_cut" class="cls-1" x="457.53" y="381.37" width="31.5" height="43.91" data-tooltip="Low Cut: Removes low-frequency rumble."/>
+      <rect id="Gain_Knob-3" data-name="Gain_Knob" class="cls-1" x="411.05" y="433.46" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume. Use PFL to check."/>
+      <rect id="Compression_knob-3" data-name="Compression_knob" class="cls-1" x="407.98" y="537.11" width="81.19" height="88.85" data-tooltip="Compression: Smooths out volume peaks."/>
+      <rect id="High_EQ_Knob-3" data-name="High_EQ_Knob" class="cls-1" x="407.98" y="625.97" width="81.19" height="65.87" data-tooltip="High EQ: Boost or cut treble frequencies."/>
+      <rect id="Mid__EQ_Knob-3" data-name="Mid__EQ_Knob" class="cls-1" x="407.98" y="755.16" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for clarity."/>
+      <rect id="Mid_Freq_Selector_EQ_Knob-3" data-name="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="407.98" y="691.84" width="83.23" height="63.32" data-tooltip="Mid Freq: Selects mid EQ frequency."/>
+      <rect id="low_EQ_Knob-3" data-name="low_EQ_Knob" class="cls-1" x="407.98" y="819.5" width="83.23" height="64.85" data-tooltip="Low EQ: Boost or cut bass."/>
+      <rect id="Aux1_Gain-3" data-name="Aux1_Gain" class="cls-1" x="407.98" y="884.35" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects."/>
+      <rect id="Aux2_Gain-3" data-name="Aux2_Gain" class="cls-1" x="407.98" y="957.71" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX."/>
+      <rect id="Preamp_selector-3" data-name="Preamp selector" class="cls-1" x="454.28" y="1031.58" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type or gain."/>
+      <rect id="Effects_1_knob-3" data-name="Effects 1 knob" class="cls-1" x="407.98" y="1053.03" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level."/>
+      <rect id="effects_2_knob-3" data-name="effects 2 knob" class="cls-1" x="407.98" y="1114.65" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level."/>
+      <rect id="pan_knob-3" data-name="pan knob" class="cls-1" x="407.98" y="1177.63" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position in mix."/>
+      <rect id="channel_on_btn-3" data-name="channel on btn" class="cls-1" x="433.52" y="1254.56" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="peak_light-3" data-name="peak light" class="cls-1" x="458.03" y="1432.26" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload."/>
+      <rect id="sig_light-3" data-name="sig light" class="cls-1" x="458.03" y="1460.86" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-3" data-name="group 1-2 send" class="cls-1" x="458.37" y="1494.9" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-3" data-name="group 3-4 send" class="cls-1" x="458.37" y="1542.56" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-3" data-name="stereo send" class="cls-1" x="458.37" y="1583.07" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-3" data-name="pfl btn" class="cls-1" x="460.75" y="1660.69" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-3" data-name="pfl active light" class="cls-1" x="460.75" y="1633.46" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-3" data-name="level slider" class="cls-1" x="410.03" y="1432.26" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="ch4">
+      <rect id="Phantom_Power-4" data-name="Phantom_Power" class="cls-1" x="514.05" y="337.86" width="63" height="41" data-tooltip="Phantom Power: 48V for condenser mics. Disable for dynamic mics."/>
+      <rect id="_26dB-4" data-name="+26dB" class="cls-1" x="503.16" y="381.48" width="42.39" height="46.98" data-tooltip="+26dB Pad: Lowers input level for loud sources."/>
+      <rect id="_100Hz_low_cut-4" data-name="100Hz_low_cut" class="cls-1" x="545.55" y="381.48" width="31.5" height="43.91" data-tooltip="Low Cut: Removes low-frequency rumble."/>
+      <rect id="Gain_Knob-4" data-name="Gain_Knob" class="cls-1" x="499.08" y="433.56" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume. Use PFL to check."/>
+      <rect id="Compression_knob-4" data-name="Compression_knob" class="cls-1" x="496.01" y="537.22" width="81.19" height="88.85" data-tooltip="Compression: Smooths out volume peaks."/>
+      <rect id="High_EQ_Knob-4" data-name="High_EQ_Knob" class="cls-1" x="496.01" y="626.07" width="81.19" height="65.87" data-tooltip="High EQ: Boost or cut treble frequencies."/>
+      <rect id="Mid__EQ_Knob-4" data-name="Mid__EQ_Knob" class="cls-1" x="496.01" y="755.27" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for clarity."/>
+      <rect id="Mid_Freq_Selector_EQ_Knob-4" data-name="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="496.01" y="691.95" width="83.23" height="63.32" data-tooltip="Mid Freq: Selects mid EQ frequency."/>
+      <rect id="low_EQ_Knob-4" data-name="low_EQ_Knob" class="cls-1" x="496.01" y="819.61" width="83.23" height="64.85" data-tooltip="Low EQ: Boost or cut bass."/>
+      <rect id="Aux1_Gain-4" data-name="Aux1_Gain" class="cls-1" x="496.01" y="884.46" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects."/>
+      <rect id="Aux2_Gain-4" data-name="Aux2_Gain" class="cls-1" x="496.01" y="957.82" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX."/>
+      <rect id="Preamp_selector-4" data-name="Preamp selector" class="cls-1" x="542.31" y="1031.69" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type or gain."/>
+      <rect id="Effects_1_knob-4" data-name="Effects 1 knob" class="cls-1" x="496.01" y="1053.14" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level."/>
+      <rect id="effects_2_knob-4" data-name="effects 2 knob" class="cls-1" x="496.01" y="1114.76" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level."/>
+      <rect id="pan_knob-4" data-name="pan knob" class="cls-1" x="496.01" y="1177.73" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position in mix."/>
+      <rect id="channel_on_btn-4" data-name="channel on btn" class="cls-1" x="521.54" y="1254.67" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="peak_light-4" data-name="peak light" class="cls-1" x="546.05" y="1432.37" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload."/>
+      <rect id="sig_light-4" data-name="sig light" class="cls-1" x="546.05" y="1460.97" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-4" data-name="group 1-2 send" class="cls-1" x="546.4" y="1495.01" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-4" data-name="group 3-4 send" class="cls-1" x="546.4" y="1542.67" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-4" data-name="stereo send" class="cls-1" x="546.4" y="1583.18" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-4" data-name="pfl btn" class="cls-1" x="548.78" y="1660.8" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-4" data-name="pfl active light" class="cls-1" x="548.78" y="1633.56" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-4" data-name="level slider" class="cls-1" x="498.05" y="1432.37" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="ch5">
+      <rect id="Phantom_Power-5" data-name="Phantom_Power" class="cls-1" x="602.08" y="337.64" width="63" height="41" data-tooltip="Phantom Power: 48V for condenser mics. Disable for dynamic mics."/>
+      <rect id="_26dB-5" data-name="+26dB" class="cls-1" x="591.19" y="381.26" width="42.39" height="46.98" data-tooltip="+26dB Pad: Lowers input level for loud sources."/>
+      <rect id="_100Hz_low_cut-5" data-name="100Hz_low_cut" class="cls-1" x="633.58" y="381.26" width="31.5" height="43.91" data-tooltip="Low Cut: Removes low-frequency rumble."/>
+      <rect id="Gain_Knob-5" data-name="Gain_Knob" class="cls-1" x="587.1" y="433.35" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume. Use PFL to check."/>
+      <rect id="Compression_knob-5" data-name="Compression_knob" class="cls-1" x="584.04" y="537.01" width="81.19" height="88.85" data-tooltip="Compression: Smooths out volume peaks."/>
+      <rect id="High_EQ_Knob-5" data-name="High_EQ_Knob" class="cls-1" x="584.04" y="625.86" width="81.19" height="65.87" data-tooltip="High EQ: Boost or cut treble frequencies."/>
+      <rect id="Mid__EQ_Knob-5" data-name="Mid__EQ_Knob" class="cls-1" x="584.04" y="755.05" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for clarity."/>
+      <rect id="Mid_Freq_Selector_EQ_Knob-5" data-name="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="584.04" y="691.73" width="83.23" height="63.32" data-tooltip="Mid Freq: Selects mid EQ frequency."/>
+      <rect id="low_EQ_Knob-5" data-name="low_EQ_Knob" class="cls-1" x="584.04" y="819.39" width="83.23" height="64.85" data-tooltip="Low EQ: Boost or cut bass."/>
+      <rect id="Aux1_Gain-5" data-name="Aux1_Gain" class="cls-1" x="584.04" y="884.24" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects."/>
+      <rect id="Aux2_Gain-5" data-name="Aux2_Gain" class="cls-1" x="584.04" y="957.6" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX."/>
+      <rect id="Preamp_selector-5" data-name="Preamp selector" class="cls-1" x="630.34" y="1031.47" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type or gain."/>
+      <rect id="Effects_1_knob-5" data-name="Effects 1 knob" class="cls-1" x="584.04" y="1052.92" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level."/>
+      <rect id="effects_2_knob-5" data-name="effects 2 knob" class="cls-1" x="584.04" y="1114.54" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level."/>
+      <rect id="pan_knob-5" data-name="pan knob" class="cls-1" x="584.04" y="1177.52" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position in mix."/>
+      <rect id="channel_on_btn-5" data-name="channel on btn" class="cls-1" x="609.57" y="1254.45" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="peak_light-5" data-name="peak light" class="cls-1" x="634.08" y="1432.16" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload."/>
+      <rect id="sig_light-5" data-name="sig light" class="cls-1" x="634.08" y="1460.75" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-5" data-name="group 1-2 send" class="cls-1" x="634.42" y="1494.79" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-5" data-name="group 3-4 send" class="cls-1" x="634.42" y="1542.45" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-5" data-name="stereo send" class="cls-1" x="634.42" y="1582.96" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-5" data-name="pfl btn" class="cls-1" x="636.81" y="1660.58" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-5" data-name="pfl active light" class="cls-1" x="636.81" y="1633.35" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-5" data-name="level slider" class="cls-1" x="586.08" y="1432.16" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="ch6">
+      <rect id="Phantom_Power-6" data-name="Phantom_Power" class="cls-1" x="690.11" y="337.32" width="63" height="41" data-tooltip="Phantom Power: 48V for condenser mics. Disable for dynamic mics."/>
+      <rect id="_26dB-6" data-name="+26dB" class="cls-1" x="679.22" y="380.94" width="42.39" height="46.98" data-tooltip="+26dB Pad: Lowers input level for loud sources."/>
+      <rect id="_100Hz_low_cut-6" data-name="100Hz_low_cut" class="cls-1" x="721.61" y="380.94" width="31.5" height="43.91" data-tooltip="Low Cut: Removes low-frequency rumble."/>
+      <rect id="Gain_Knob-6" data-name="Gain_Knob" class="cls-1" x="675.13" y="433.02" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume. Use PFL to check."/>
+      <rect id="Compression_knob-6" data-name="Compression_knob" class="cls-1" x="672.07" y="536.68" width="81.19" height="88.85" data-tooltip="Compression: Smooths out volume peaks."/>
+      <rect id="High_EQ_Knob-6" data-name="High_EQ_Knob" class="cls-1" x="672.07" y="625.53" width="81.19" height="65.87" data-tooltip="High EQ: Boost or cut treble frequencies."/>
+      <rect id="Mid__EQ_Knob-6" data-name="Mid__EQ_Knob" class="cls-1" x="672.07" y="754.72" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for clarity."/>
+      <rect id="Mid_Freq_Selector_EQ_Knob-6" data-name="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="672.07" y="691.4" width="83.23" height="63.32" data-tooltip="Mid Freq: Selects mid EQ frequency."/>
+      <rect id="low_EQ_Knob-6" data-name="low_EQ_Knob" class="cls-1" x="672.07" y="819.06" width="83.23" height="64.85" data-tooltip="Low EQ: Boost or cut bass."/>
+      <rect id="Aux1_Gain-6" data-name="Aux1_Gain" class="cls-1" x="672.07" y="883.91" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects."/>
+      <rect id="Aux2_Gain-6" data-name="Aux2_Gain" class="cls-1" x="672.07" y="957.28" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX."/>
+      <rect id="Preamp_selector-6" data-name="Preamp selector" class="cls-1" x="718.37" y="1031.15" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type or gain."/>
+      <rect id="Effects_1_knob-6" data-name="Effects 1 knob" class="cls-1" x="672.07" y="1052.6" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level."/>
+      <rect id="effects_2_knob-6" data-name="effects 2 knob" class="cls-1" x="672.07" y="1114.21" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level."/>
+      <rect id="pan_knob-6" data-name="pan knob" class="cls-1" x="672.07" y="1177.19" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position in mix."/>
+      <rect id="channel_on_btn-6" data-name="channel on btn" class="cls-1" x="697.6" y="1254.13" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="peak_light-6" data-name="peak light" class="cls-1" x="722.11" y="1431.83" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload."/>
+      <rect id="sig_light-6" data-name="sig light" class="cls-1" x="722.11" y="1460.43" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-6" data-name="group 1-2 send" class="cls-1" x="722.45" y="1494.47" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-6" data-name="group 3-4 send" class="cls-1" x="722.45" y="1542.13" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-6" data-name="stereo send" class="cls-1" x="722.45" y="1582.64" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-6" data-name="pfl btn" class="cls-1" x="724.84" y="1660.26" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-6" data-name="pfl active light" class="cls-1" x="724.84" y="1633.02" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-6" data-name="level slider" class="cls-1" x="674.11" y="1431.83" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="ch7">
+      <rect id="Phantom_Power-7" data-name="Phantom_Power" class="cls-1" x="778.14" y="337.97" width="63" height="41" data-tooltip="Phantom Power: 48V for condenser mics. Disable for dynamic mics."/>
+      <rect id="_26dB-7" data-name="+26dB" class="cls-1" x="767.25" y="381.59" width="42.39" height="46.98" data-tooltip="+26dB Pad: Lowers input level for loud sources."/>
+      <rect id="_100Hz_low_cut-7" data-name="100Hz_low_cut" class="cls-1" x="809.64" y="381.59" width="31.5" height="43.91" data-tooltip="Low Cut: Removes low-frequency rumble."/>
+      <rect id="Gain_Knob-7" data-name="Gain_Knob" class="cls-1" x="763.16" y="433.67" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume. Use PFL to check."/>
+      <rect id="Compression_knob-7" data-name="Compression_knob" class="cls-1" x="760.1" y="537.33" width="81.19" height="88.85" data-tooltip="Compression: Smooths out volume peaks."/>
+      <rect id="High_EQ_Knob-7" data-name="High_EQ_Knob" class="cls-1" x="760.1" y="626.18" width="81.19" height="65.87" data-tooltip="High EQ: Boost or cut treble frequencies."/>
+      <rect id="Mid__EQ_Knob-7" data-name="Mid__EQ_Knob" class="cls-1" x="760.1" y="755.37" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for clarity."/>
+      <rect id="Mid_Freq_Selector_EQ_Knob-7" data-name="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="760.1" y="692.06" width="83.23" height="63.32" data-tooltip="Mid Freq: Selects mid EQ frequency."/>
+      <rect id="low_EQ_Knob-7" data-name="low_EQ_Knob" class="cls-1" x="760.1" y="819.71" width="83.23" height="64.85" data-tooltip="Low EQ: Boost or cut bass."/>
+      <rect id="Aux1_Gain-7" data-name="Aux1_Gain" class="cls-1" x="760.1" y="884.57" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects."/>
+      <rect id="Aux2_Gain-7" data-name="Aux2_Gain" class="cls-1" x="760.1" y="957.93" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX."/>
+      <rect id="Preamp_selector-7" data-name="Preamp selector" class="cls-1" x="806.4" y="1031.8" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type or gain."/>
+      <rect id="Effects_1_knob-7" data-name="Effects 1 knob" class="cls-1" x="760.1" y="1053.25" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level."/>
+      <rect id="effects_2_knob-7" data-name="effects 2 knob" class="cls-1" x="760.1" y="1114.86" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level."/>
+      <rect id="pan_knob-7" data-name="pan knob" class="cls-1" x="760.1" y="1177.84" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position in mix."/>
+      <rect id="channel_on_btn-7" data-name="channel on btn" class="cls-1" x="785.63" y="1254.78" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="peak_light-7" data-name="peak light" class="cls-1" x="810.14" y="1432.48" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload."/>
+      <rect id="sig_light-7" data-name="sig light" class="cls-1" x="810.14" y="1461.08" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-7" data-name="group 1-2 send" class="cls-1" x="810.48" y="1495.12" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-7" data-name="group 3-4 send" class="cls-1" x="810.48" y="1542.78" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-7" data-name="stereo send" class="cls-1" x="810.48" y="1583.29" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-7" data-name="pfl btn" class="cls-1" x="812.86" y="1660.91" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-7" data-name="pfl active light" class="cls-1" x="812.86" y="1633.67" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-7" data-name="level slider" class="cls-1" x="762.14" y="1432.48" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="ch8">
+      <rect id="Phantom_Power-8" data-name="Phantom_Power" class="cls-1" x="866.17" y="338.08" width="63" height="41" data-tooltip="Phantom Power: 48V for condenser mics. Disable for dynamic mics."/>
+      <rect id="_26dB-8" data-name="+26dB" class="cls-1" x="855.28" y="381.7" width="42.39" height="46.98" data-tooltip="+26dB Pad: Lowers input level for loud sources."/>
+      <rect id="_100Hz_low_cut-8" data-name="100Hz_low_cut" class="cls-1" x="897.67" y="381.7" width="31.5" height="43.91" data-tooltip="Low Cut: Removes low-frequency rumble."/>
+      <rect id="Gain_Knob-8" data-name="Gain_Knob" class="cls-1" x="851.19" y="433.78" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume. Use PFL to check."/>
+      <rect id="Compression_knob-8" data-name="Compression_knob" class="cls-1" x="848.13" y="537.44" width="81.19" height="88.85" data-tooltip="Compression: Smooths out volume peaks."/>
+      <rect id="High_EQ_Knob-8" data-name="High_EQ_Knob" class="cls-1" x="848.13" y="626.29" width="81.19" height="65.87" data-tooltip="High EQ: Boost or cut treble frequencies."/>
+      <rect id="Mid__EQ_Knob-8" data-name="Mid__EQ_Knob" class="cls-1" x="848.13" y="755.48" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for clarity."/>
+      <rect id="Mid_Freq_Selector_EQ_Knob-8" data-name="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="848.13" y="692.16" width="83.23" height="63.32" data-tooltip="Mid Freq: Selects mid EQ frequency."/>
+      <rect id="low_EQ_Knob-8" data-name="low_EQ_Knob" class="cls-1" x="848.13" y="819.82" width="83.23" height="64.85" data-tooltip="Low EQ: Boost or cut bass."/>
+      <rect id="Aux1_Gain-8" data-name="Aux1_Gain" class="cls-1" x="848.13" y="884.67" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects."/>
+      <rect id="Aux2_Gain-8" data-name="Aux2_Gain" class="cls-1" x="848.13" y="958.04" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX."/>
+      <rect id="Preamp_selector-8" data-name="Preamp selector" class="cls-1" x="894.43" y="1031.91" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type or gain."/>
+      <rect id="Effects_1_knob-8" data-name="Effects 1 knob" class="cls-1" x="848.13" y="1053.35" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level."/>
+      <rect id="effects_2_knob-8" data-name="effects 2 knob" class="cls-1" x="848.13" y="1114.97" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level."/>
+      <rect id="pan_knob-8" data-name="pan knob" class="cls-1" x="848.13" y="1177.95" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position in mix."/>
+      <rect id="channel_on_btn-8" data-name="channel on btn" class="cls-1" x="873.66" y="1254.89" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="peak_light-8" data-name="peak light" class="cls-1" x="898.17" y="1432.59" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload."/>
+      <rect id="sig_light-8" data-name="sig light" class="cls-1" x="898.17" y="1461.18" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-8" data-name="group 1-2 send" class="cls-1" x="898.51" y="1495.23" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-8" data-name="group 3-4 send" class="cls-1" x="898.51" y="1542.89" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-8" data-name="stereo send" class="cls-1" x="898.51" y="1583.4" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-8" data-name="pfl btn" class="cls-1" x="900.89" y="1661.01" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-8" data-name="pfl active light" class="cls-1" x="900.89" y="1633.78" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-8" data-name="level slider" class="cls-1" x="850.17" y="1432.59" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="ch9_10" data-name="ch9/10">
+      <rect id="Phantom_Power-9" data-name="Phantom_Power" class="cls-1" x="953.77" y="338.08" width="63" height="41" data-tooltip="Phantom Power: 48V for condenser mics. Disable for dynamic mics."/>
+      <rect id="_100Hz_low_cut-9" data-name="100Hz_low_cut" class="cls-1" x="985.27" y="381.7" width="31.5" height="43.91" data-tooltip="Low Cut: Removes low-frequency rumble."/>
+      <rect id="Gain_Knob-9" data-name="Gain_Knob" class="cls-1" x="938.79" y="433.78" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume. Use PFL to check."/>
+      <rect id="High_EQ_Knob-9" data-name="High_EQ_Knob" class="cls-1" x="935.73" y="626.29" width="81.19" height="65.87" data-tooltip="High EQ: Boost or cut treble frequencies."/>
+      <rect id="Mid__EQ_Knob-9" data-name="Mid__EQ_Knob" class="cls-1" x="935.73" y="755.48" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for clarity."/>
+      <rect id="low_EQ_Knob-9" data-name="low_EQ_Knob" class="cls-1" x="935.73" y="819.82" width="83.23" height="64.85" data-tooltip="Low EQ: Boost or cut bass."/>
+      <rect id="Aux1_Gain-9" data-name="Aux1_Gain" class="cls-1" x="935.73" y="884.67" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects."/>
+      <rect id="Aux2_Gain-9" data-name="Aux2_Gain" class="cls-1" x="935.73" y="958.04" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX."/>
+      <rect id="Preamp_selector-9" data-name="Preamp selector" class="cls-1" x="982.03" y="1031.91" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type or gain."/>
+      <rect id="Effects_1_knob-9" data-name="Effects 1 knob" class="cls-1" x="935.73" y="1053.35" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level."/>
+      <rect id="effects_2_knob-9" data-name="effects 2 knob" class="cls-1" x="935.73" y="1114.97" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level."/>
+      <rect id="pan_knob-9" data-name="pan knob" class="cls-1" x="935.73" y="1177.95" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position in mix."/>
+      <rect id="channel_on_btn-9" data-name="channel on btn" class="cls-1" x="961.26" y="1254.89" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="peak_light-9" data-name="peak light" class="cls-1" x="985.77" y="1432.59" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload."/>
+      <rect id="sig_light-9" data-name="sig light" class="cls-1" x="985.77" y="1461.18" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-9" data-name="group 1-2 send" class="cls-1" x="986.11" y="1495.23" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-9" data-name="group 3-4 send" class="cls-1" x="986.11" y="1542.89" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-9" data-name="stereo send" class="cls-1" x="986.11" y="1583.4" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-9" data-name="pfl btn" class="cls-1" x="988.5" y="1661.01" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-9" data-name="pfl active light" class="cls-1" x="988.5" y="1633.78" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-9" data-name="level slider" class="cls-1" x="937.77" y="1432.59" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="ch11_12" data-name="ch11/12">
+      <rect id="Phantom_Power-10" data-name="Phantom_Power" class="cls-1" x="1034.82" y="338.08" width="63" height="41" data-tooltip="Phantom Power: 48V for condenser mics. Disable for dynamic mics."/>
+      <rect id="_100Hz_low_cut-10" data-name="100Hz_low_cut" class="cls-1" x="1066.32" y="381.7" width="31.5" height="43.91" data-tooltip="Low Cut: Removes low-frequency rumble."/>
+      <rect id="Gain_Knob-10" data-name="Gain_Knob" class="cls-1" x="1019.84" y="433.78" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume. Use PFL to check."/>
+      <rect id="High_EQ_Knob-10" data-name="High_EQ_Knob" class="cls-1" x="1016.77" y="626.29" width="81.19" height="65.87" data-tooltip="High EQ: Boost or cut treble frequencies."/>
+      <rect id="Mid__EQ_Knob-10" data-name="Mid__EQ_Knob" class="cls-1" x="1016.77" y="755.48" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for clarity."/>
+      <rect id="low_EQ_Knob-10" data-name="low_EQ_Knob" class="cls-1" x="1016.77" y="819.82" width="83.23" height="64.85" data-tooltip="Low EQ: Boost or cut bass."/>
+      <rect id="Aux1_Gain-10" data-name="Aux1_Gain" class="cls-1" x="1016.77" y="884.67" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects."/>
+      <rect id="Aux2_Gain-10" data-name="Aux2_Gain" class="cls-1" x="1016.77" y="958.04" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX."/>
+      <rect id="Preamp_selector-10" data-name="Preamp selector" class="cls-1" x="1063.07" y="1031.91" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type or gain."/>
+      <rect id="Effects_1_knob-10" data-name="Effects 1 knob" class="cls-1" x="1016.77" y="1053.35" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level."/>
+      <rect id="effects_2_knob-10" data-name="effects 2 knob" class="cls-1" x="1016.77" y="1114.97" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level."/>
+      <rect id="pan_knob-10" data-name="pan knob" class="cls-1" x="1016.77" y="1177.95" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position in mix."/>
+      <rect id="channel_on_btn-10" data-name="channel on btn" class="cls-1" x="1042.31" y="1254.89" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="peak_light-10" data-name="peak light" class="cls-1" x="1066.82" y="1432.59" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload."/>
+      <rect id="sig_light-10" data-name="sig light" class="cls-1" x="1066.82" y="1461.18" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-10" data-name="group 1-2 send" class="cls-1" x="1067.16" y="1495.23" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-10" data-name="group 3-4 send" class="cls-1" x="1067.16" y="1542.89" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-10" data-name="stereo send" class="cls-1" x="1067.16" y="1583.4" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-10" data-name="pfl btn" class="cls-1" x="1069.54" y="1661.01" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-10" data-name="pfl active light" class="cls-1" x="1069.54" y="1633.78" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-10" data-name="level slider" class="cls-1" x="1018.82" y="1432.59" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>  
+    <g id="ch13_14" data-name="ch13/14">
+      <rect id="Gain_Knob-11" data-name="Gain_Knob" class="cls-1" x="1105.2" y="436.17" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume for stereo channel."/>
+      <rect id="High_EQ_Knob-11" data-name="High_EQ_Knob" class="cls-1" x="1102.14" y="628.68" width="81.19" height="65.87" data-tooltip="High EQ: Adjusts treble for stereo channel."/>
+      <rect id="Mid__EQ_Knob-11" data-name="Mid__EQ_Knob" class="cls-1" x="1102.14" y="757.87" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for stereo channel."/>
+      <rect id="Mid_Freq_Selector_EQ_Knob-9" data-name="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="1102.14" y="694.55" width="83.23" height="63.32" data-tooltip="Mid Freq: Selects mid EQ frequency for stereo channel."/>
+      <rect id="low_EQ_Knob-11" data-name="low_EQ_Knob" class="cls-1" x="1102.14" y="822.21" width="83.23" height="64.85" data-tooltip="Low EQ: Adjusts bass for stereo channel."/>
+      <rect id="Aux1_Gain-11" data-name="Aux1_Gain" class="cls-1" x="1102.14" y="887.06" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor/effects (stereo channel)."/>
+      <rect id="Aux2_Gain-11" data-name="Aux2_Gain" class="cls-1" x="1102.14" y="960.43" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for stereo channel."/>
+      <rect id="Preamp_selector-11" data-name="Preamp selector" class="cls-1" x="1148.43" y="1034.3" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type/gain for stereo channel."/>
+      <rect id="Effects_1_knob-11" data-name="Effects 1 knob" class="cls-1" x="1102.14" y="1055.74" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level (stereo channel)."/>
+      <rect id="effects_2_knob-11" data-name="effects 2 knob" class="cls-1" x="1102.14" y="1117.36" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level (stereo channel)."/>
+      <rect id="pan_knob-11" data-name="pan knob" class="cls-1" x="1102.14" y="1180.34" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position for stereo channel."/>
+      <rect id="channel_on_btn-11" data-name="channel on btn" class="cls-1" x="1123.41" y="1257.28" width="42.55" height="45.28" data-tooltip="Channel On: Mute/unmute stereo channel."/>
+      <rect id="peak_light-11" data-name="peak light" class="cls-1" x="1152.18" y="1434.98" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload (stereo channel)."/>
+      <rect id="sig_light-11" data-name="sig light" class="cls-1" x="1152.18" y="1463.57" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active (stereo channel)."/>
+      <rect id="group_1-2_send-11" data-name="group 1-2 send" class="cls-1" x="1152.52" y="1497.62" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2 (stereo channel)."/>
+      <rect id="group_3-4_send-11" data-name="group 3-4 send" class="cls-1" x="1152.52" y="1545.28" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4 (stereo channel)."/>
+      <rect id="stereo_send-11" data-name="stereo send" class="cls-1" x="1152.52" y="1585.79" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs (stereo channel)."/>
+      <rect id="pfl_btn-11" data-name="pfl btn" class="cls-1" x="1154.9" y="1663.4" width="32" height="41.53" data-tooltip="PFL: Listen to stereo channel solo."/>
+      <rect id="pfl_active_light-11" data-name="pfl active light" class="cls-1" x="1154.9" y="1636.17" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on (stereo channel)."/>
+      <rect id="level_slider-11" data-name="level slider" class="cls-1" x="1104.18" y="1434.98" width="50.72" height="282.21" data-tooltip="Level: Controls stereo channel output."/>
+      <rect id="ducker" class="cls-1" x="1113.49" y="314.64" width="65.02" height="50.38" data-tooltip="Ducker: Automatically lowers background when speaking."/>
+      <rect id="leveler" class="cls-1" x="1113.49" y="384.09" width="66.72" height="41.53" data-tooltip="Leveler: Maintains consistent output level."/>
+      <rect id="sterio_image_select_mono_blend_sterio" data-name="sterio image select mono/blend/sterio" class="cls-1" x="1105.2" y="525.7" width="78.13" height="98.38" data-tooltip="Stereo Image: Select mono, blend, or stereo mode."/>
+    </g>
+    <g id="ch15_16" data-name="ch15/16">
+      <rect id="Gain_Knob-12" data-name="Gain_Knob" class="cls-1" x="1190.14" y="436.17" width="78.13" height="71.49" data-tooltip="Gain: Sets input volume for stereo channel."/>
+      <rect id="High_EQ_Knob-12" data-name="High_EQ_Knob" class="cls-1" x="1187.07" y="628.68" width="81.19" height="65.87" data-tooltip="High EQ: Adjusts treble for stereo channel."/>
+      <rect id="Mid__EQ_Knob-12" data-name="Mid__EQ_Knob" class="cls-1" x="1187.07" y="757.87" width="83.23" height="64.34" data-tooltip="Mid EQ: Adjusts midrange for stereo channel."/>
+      <rect id="Mid_Freq_Selector_EQ_Knob-10" data-name="Mid_Freq_Selector_EQ_Knob" class="cls-1" x="1187.07" y="694.55" width="83.23" height="63.32" data-tooltip="Mid Freq: Selects mid EQ frequency for stereo channel."/>
+      <rect id="low_EQ_Knob-12" data-name="low_EQ_Knob" class="cls-1" x="1187.07" y="822.21" width="83.23" height="64.85" data-tooltip="Low EQ: Adjusts bass for stereo channel."/>
+      <rect id="Aux1_Gain-12" data-name="Aux1_Gain" class="cls-1" x="1187.07" y="887.06" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor/effects (stereo channel)."/>
+      <rect id="Aux2_Gain-12" data-name="Aux2_Gain" class="cls-1" x="1187.07" y="960.43" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for stereo channel."/>
+      <rect id="Preamp_selector-12" data-name="Preamp selector" class="cls-1" x="1233.37" y="1034.3" width="36.94" height="21.45" data-tooltip="Preamp: Switches input type/gain for stereo channel."/>
+      <rect id="Effects_1_knob-12" data-name="Effects 1 knob" class="cls-1" x="1187.07" y="1055.74" width="83.23" height="59.91" data-tooltip="FX 1: Controls first effect level (stereo channel)."/>
+      <rect id="effects_2_knob-12" data-name="effects 2 knob" class="cls-1" x="1187.07" y="1117.36" width="83.23" height="62.98" data-tooltip="FX 2: Controls second effect level (stereo channel)."/>
+      <rect id="pan_knob-12" data-name="pan knob" class="cls-1" x="1187.07" y="1180.34" width="85.11" height="73.19" data-tooltip="Pan: Sets left/right position for stereo channel."/>
+      <rect id="channel_on_btn-12" data-name="channel on btn" class="cls-1" x="1208.35" y="1257.28" width="42.55" height="45.28" data-tooltip="Channel On: Mute/unmute stereo channel."/>
+      <rect id="peak_light-12" data-name="peak light" class="cls-1" x="1237.11" y="1434.98" width="34.72" height="28.6" data-tooltip="Peak: Warns of signal overload (stereo channel)."/>
+      <rect id="sig_light-12" data-name="sig light" class="cls-1" x="1237.11" y="1463.57" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active (stereo channel)."/>
+      <rect id="group_1-2_send-12" data-name="group 1-2 send" class="cls-1" x="1237.45" y="1497.62" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2 (stereo channel)."/>
+      <rect id="group_3-4_send-12" data-name="group 3-4 send" class="cls-1" x="1237.45" y="1545.28" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4 (stereo channel)."/>
+      <rect id="stereo_send-12" data-name="stereo send" class="cls-1" x="1237.45" y="1585.79" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs (stereo channel)."/>
+      <rect id="pfl_btn-12" data-name="pfl btn" class="cls-1" x="1239.84" y="1663.4" width="32" height="41.53" data-tooltip="PFL: Listen to stereo channel solo."/>
+      <rect id="pfl_active_light-12" data-name="pfl active light" class="cls-1" x="1239.84" y="1636.17" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on (stereo channel)."/>
+      <rect id="level_slider-12" data-name="level slider" class="cls-1" x="1189.11" y="1434.98" width="50.72" height="282.21" data-tooltip="Level: Controls stereo channel output."/>
+      <rect id="ducker-2" data-name="ducker" class="cls-1" x="1198.43" y="314.64" width="65.02" height="50.38" data-tooltip="Ducker: Automatically lowers background when speaking."/>
+      <rect id="leveler-2" data-name="leveler" class="cls-1" x="1198.43" y="384.09" width="66.72" height="41.53" data-tooltip="Leveler: Maintains consistent output level."/>
+      <rect id="sterio_image_select_mono_blend_sterio-2" data-name="sterio image select mono/blend/sterio" class="cls-1" x="1190.14" y="525.7" width="78.13" height="98.38" data-tooltip="Stereo Image: Select mono, blend, or stereo mode."/>
+    </g>
+    <rect id="effects_1_selector" data-name="effects 1 selector" class="cls-1" x="1272.18" y="487.74" width="107.01" height="396.17" data-tooltip="Effects 1 Selector: Choose effect for FX1 bus."/>
+    <rect id="effects_2_selector" data-name="effects 2 selector" class="cls-1" x="1379.19" y="487.74" width="188.43" height="396.17" data-tooltip="Effects 2 Selector: Choose effect for FX2 bus."/>
+    <rect id="power_meter" data-name="power meter" class="cls-1" x="1567.62" y="618.72" width="117.19" height="265.19" data-tooltip="Power Meter: Shows output level."/>
+    <rect id="power_on_indicator" data-name="power on indicator" class="cls-1" x="1567.62" y="487.74" width="117.19" height="68.94" data-tooltip="Power On Indicator: Shows if mixer is powered."/>
+    <rect id="headphone_port" data-name="headphone port" class="cls-1" x="1546.94" y="403.65" width="130.21" height="58.05" data-tooltip="Headphone Port: Connect headphones for monitoring."/>
+    <rect id="ipod_connection" data-name="ipod connection" class="cls-1" x="1612.04" y="314.64" width="72.77" height="64.44" data-tooltip="iPod Connection: Connect iPod for playback."/>
+    <rect id="selector_for_what_channel_is_ipod" data-name="selector for what channel is ipod" class="cls-1" x="1419.79" y="314.64" width="127.15" height="82.72" data-tooltip="iPod Channel Selector: Assign iPod to a channel."/>
+    <rect id="headphone_volume" data-name="headphone volume" class="cls-1" x="1613.57" y="1072.94" width="71.23" height="121.02" data-tooltip="Headphone Volume: Adjust headphone output level."/>
+    <g id="send_to_master" data-name="send to master">
+      <rect id="aux1_afl" data-name="aux1 afl" class="cls-1" x="1626.21" y="899.06" width="40.98" height="61.36" data-tooltip="Aux 1 AFL: Sends aux 1 pre-fader to master."/>
+      <rect id="aux2_afl" data-name="aux2 afl" class="cls-1" x="1626.21" y="973.36" width="40.98" height="58.55" data-tooltip="Aux 2 AFL: Sends aux 2 pre-fader to master."/>
+      <rect id="fx1_send_master_knob" data-name="fx1 send master knob" class="cls-1" x="1527.02" y="1042.63" width="74.73" height="74.73" data-tooltip="FX1 Send Master: Controls FX1 send level to master."/>
+      <rect id="fx2_send_master_knob" data-name="fx2 send master knob" class="cls-1" x="1527.02" y="1117.36" width="74.73" height="76.6" data-tooltip="FX2 Send Master: Controls FX2 send level to master."/>
+      <rect id="aux2_send_master_knob" data-name="aux2 send master knob" class="cls-1" x="1527.02" y="960.43" width="74.73" height="71.48" data-tooltip="Aux 2 Send Master: Controls aux 2 send level to master."/>
+      <rect id="aux1_send_master_knob" data-name="aux1 send master knob" class="cls-1" x="1527.02" y="891.4" width="74.73" height="69.02" data-tooltip="Aux 1 Send Master: Controls aux 1 send level to master."/>
+    </g>
+    <rect id="_2TR_volume" data-name="2TR volume" class="cls-1" x="1445.83" y="1190.89" width="76.6" height="76.6" data-tooltip="2TR Volume: Controls 2-track return level."/>
+    <rect id="_2TR_send_selector_ST_Mon" data-name="2TR send selector ST/Mon" class="cls-1" x="1445.83" y="1133.45" width="76.6" height="57.45" data-tooltip="2TR Send Selector: Selects 2-track send mode."/>
+    <g id="fx1">
+      <rect id="Aux1_Gain-13" data-name="Aux1_Gain" class="cls-1" x="1279.41" y="887.49" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects for FX1."/>
+      <rect id="Aux2_Gain-13" data-name="Aux2_Gain" class="cls-1" x="1279.41" y="960.85" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX1."/>
+      <rect id="channel_on_btn-13" data-name="channel on btn" class="cls-1" x="1308.17" y="1257.7" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="sig_light-13" data-name="sig light" class="cls-1" x="1329.45" y="1464" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-13" data-name="group 1-2 send" class="cls-1" x="1329.79" y="1498.04" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-13" data-name="group 3-4 send" class="cls-1" x="1329.79" y="1545.7" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-13" data-name="stereo send" class="cls-1" x="1329.79" y="1586.21" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-13" data-name="pfl btn" class="cls-1" x="1332.17" y="1663.83" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-13" data-name="pfl active light" class="cls-1" x="1332.17" y="1636.6" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-13" data-name="level slider" class="cls-1" x="1281.45" y="1435.4" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="fx2">
+      <rect id="effects_tap_button" data-name="effects tap button" class="cls-1" x="1374.6" y="1104.34" width="58.98" height="74.3" data-tooltip="Effects Tap: Activates effects temporarily."/>
+      <rect id="Aux1_Gain-14" data-name="Aux1_Gain" class="cls-1" x="1364.34" y="887.49" width="83.23" height="73.36" data-tooltip="Aux 1: Send to monitor or effects for FX2."/>
+      <rect id="Aux2_Gain-14" data-name="Aux2_Gain" class="cls-1" x="1364.34" y="960.85" width="83.23" height="73.87" data-tooltip="Aux 2: Second send for monitors or FX2."/>
+      <rect id="channel_on_btn-14" data-name="channel on btn" class="cls-1" x="1384.85" y="1257.7" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="sig_light-14" data-name="sig light" class="cls-1" x="1414.39" y="1464" width="34.72" height="32.34" data-tooltip="Signal: Shows input is active."/>
+      <rect id="group_1-2_send-14" data-name="group 1-2 send" class="cls-1" x="1414.73" y="1498.04" width="34.38" height="47.66" data-tooltip="Group 1-2: Send to subgroup 1-2."/>
+      <rect id="group_3-4_send-14" data-name="group 3-4 send" class="cls-1" x="1414.73" y="1545.7" width="34.38" height="40.51" data-tooltip="Group 3-4: Send to subgroup 3-4."/>
+      <rect id="stereo_send-14" data-name="stereo send" class="cls-1" x="1414.73" y="1586.21" width="34.38" height="41.87" data-tooltip="Stereo: Send to main outputs."/>
+      <rect id="pfl_btn-14" data-name="pfl btn" class="cls-1" x="1417.11" y="1663.83" width="32" height="41.53" data-tooltip="PFL: Listen to channel solo."/>
+      <rect id="pfl_active_light-14" data-name="pfl active light" class="cls-1" x="1417.11" y="1636.6" width="32" height="27.23" data-tooltip="PFL Active: Solo monitoring on."/>
+      <rect id="level_slider-14" data-name="level slider" class="cls-1" x="1366.39" y="1435.4" width="50.72" height="282.21" data-tooltip="Level: Controls channel output."/>
+    </g>
+    <g id="return_levels" data-name="return levels">
+      <rect id="stereo_return_knob" data-name="stereo return knob" class="cls-1" x="1445.75" y="1041.7" width="76.6" height="76.6" data-tooltip="Stereo Return: Adjusts level of stereo return."/>
+      <rect id="Aux1_return_knob" data-name="Aux1 return knob" class="cls-1" x="1447.58" y="887.49" width="72.94" height="72.94" data-tooltip="Aux 1 Return: Adjusts level of aux 1 return."/>
+      <rect id="Aux2_return_knob" data-name="Aux2  return knob" class="cls-1" x="1447.58" y="961.79" width="72.94" height="72.94" data-tooltip="Aux 2 Return: Adjusts level of aux 2 return."/>
+    </g>
+    <g id="Group_1-2" data-name="Group 1-2">
+      <rect id="stereo_send-15" data-name="stereo send" class="cls-1" x="1495.56" y="1583.4" width="29.93" height="41.87" data-tooltip="Group 1-2 Stereo Send: Sends group 1-2 to main outputs."/>
+      <rect id="pfl_btn-15" data-name="pfl btn" class="cls-1" x="1497.64" y="1661.01" width="27.85" height="41.53" data-tooltip="Group 1-2 PFL: Solo group 1-2 to headphones."/>
+      <rect id="pfl_active_light-15" data-name="pfl active light" class="cls-1" x="1497.64" y="1633.78" width="27.85" height="27.23" data-tooltip="Group 1-2 PFL Active: Group 1-2 solo is active."/>
+      <rect id="level_slider-15" data-name="level slider" class="cls-1" x="1453.49" y="1432.59" width="44.15" height="282.21" data-tooltip="Group 1-2 Level: Controls output level of group 1-2."/>
+    </g>
+    <g id="Group_3-4" data-name="Group 3-4">
+      <rect id="stereo_send-16" data-name="stereo send" class="cls-1" x="1571.01" y="1583.4" width="29.93" height="41.87" data-tooltip="Group 3-4 Stereo Send: Sends group 3-4 to main outputs."/>
+      <rect id="pfl_btn-16" data-name="pfl btn" class="cls-1" x="1573.08" y="1661.01" width="27.85" height="41.53" data-tooltip="Group 3-4 PFL: Solo group 3-4 to headphones."/>
+      <rect id="pfl_active_light-16" data-name="pfl active light" class="cls-1" x="1573.08" y="1633.78" width="27.85" height="27.23" data-tooltip="Group 3-4 PFL Active: Group 3-4 solo is active."/>
+      <rect id="level_slider-16" data-name="level slider" class="cls-1" x="1528.94" y="1432.59" width="44.15" height="282.21" data-tooltip="Group 3-4 Level: Controls output level of group 3-4."/>
+    </g>
+    <g id="STEREO_out" data-name="STEREO out">
+      <rect id="channel_on_btn-15" data-name="channel on btn" class="cls-1" x="1625.43" y="1257.7" width="42.55" height="45.28" data-tooltip="Channel On: Mute or unmute this channel."/>
+      <rect id="level_slider-17" data-name="level slider" class="cls-1" x="1621.34" y="1432.59" width="50.72" height="282.21" data-tooltip="Level: Controls stereo output level."/>
+    </g>
+  </g>
+</svg>
