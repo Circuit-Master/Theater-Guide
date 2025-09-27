@@ -1,59 +1,166 @@
+:root {
+  --neon: #00f7ff;
+  --neon2: #ff3aff;
+  --bg-1: #03040a;
+  --panel-bg: rgba(8,8,16,0.88);
+  --muted: #cfd8e3;
+}
+
+/* Base layout */
+html,body {
+  height: 100%;
+  margin: 0;
+}
 body {
-  font-family: sans-serif;
+  font-family: Inter, sans-serif;
+  background:
+    radial-gradient(1200px 700px at 10% 10%, rgba(0,255,255,0.04), transparent 6%),
+    radial-gradient(900px 500px at 95% 90%, rgba(255,0,255,0.03), transparent 8%),
+    linear-gradient(180deg, #05060a 0%, #0b0b12 100%);
+  color: #e9eef8;
+  padding: 24px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  margin: 6px 0 12px;
+  text-align: center;
+  font-weight: 700;
+}
+p.lead {
+  max-width: 900px;
+  margin: 0 auto 18px;
+  color: #bfc9d9;
   text-align: center;
 }
 
-svg {
-  width: 90%;
-  border: 1px solid #ccc;
+/* SVG */
+.svg-wrap {
+  display: flex;
+  justify-content: center;
+}
+svg#mixer-svg {
+  width: 85%;
+  max-width: 1400px;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6), 0 0 30px rgba(0,255,255,0.03);
+  background: (var(--bg-1));
 }
 
-/* Hotspot rectangles */
+/* Hotspots */
 .hotspot {
   fill: transparent;
-  stroke: rgba(255, 0, 0, 0);      /* for testing, remove when ready */
-  stroke-width: 1;
   cursor: pointer;
+  transition: fill 120ms ease, stroke 120ms ease, filter 120ms ease;
 }
-
 .hotspot:hover {
-  fill: rgba(255, 0, 0, 0);
+  fill: rgba(0,255,255,0.06);
+  stroke: var(--neon);
+  stroke-width: 3;
+  filter: drop-shadow(0 0 8px rgba(0,255,255,0.55))
+          drop-shadow(0 0 18px rgba(0,255,255,0.18));
 }
 
-/* Tooltip styling */
+/* Tooltip */
 .tooltip {
   position: absolute;
-  background: #222;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 4px;
-  pointer-events: none;
-  font-size: 14px;
   display: none;
-  z-index: 1000;
+  min-width: 180px;
+  max-width: 360px;
+  background: linear-gradient(180deg, rgba(10,10,12,0.8), rgba(5,5,8,0.95));
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.3;
+  border: 1px solid rgba(0,255,255,0.08);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.6), 0 0 18px rgba(0,255,255,0.06);
+  z-index: 2000;
+  opacity: 0;
+  transition: opacity 0.12s ease, transform 0.12s ease;
 }
+.tooltip.visible {
+  display: block;
+  opacity: 1;
+}
+.tooltip .title {
+  font-weight: 700;
+  color: var(--neon);
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+.tooltip .body {
+  font-size: 12px;
+  color: #e6f8fb;
+}
+
+/* Detail pane */
 .detail-pane {
   position: fixed;
-  right: 20px;
-  top: 20px;
-  width: 300px;
+  top: 6vh;       /* standoff from top */
+  left: 6vh;      /* standoff from left */
+  right: 6vh;     /* standoff from right */
+  bottom: auto;   /* not pinned to bottom */
+  width: auto;    /* dynamic width */
+  max-width: 30vw; /* cap width so it doesn’t eat whole screen */
   max-height: 80vh;
   padding: 16px;
-  background: #fff;
-  border: 2px solid #444;
+  background: linear-gradient(180deg, rgba(10,10,12,0.92), rgba(5,5,8,0.96));
+  color: #fff;
+  border: 2px solid var(--neon);
   border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-  display: none;
+  box-shadow: 0 0 18px rgba(0,255,255,0.25), 0 8px 24px rgba(0,0,0,0.6);
+  display: flex;               /* always flex — hidden with opacity */
   flex-direction: column;
   z-index: 9999;
+  overflow-y: auto;            /* scroll if too much text */
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
+
+.detail-pane.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);    /* smooth slide-in effect */
+}
+
+.detail-pane header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
 .detail-pane h2 {
-  margin-top: 0;
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--neon);
+  text-shadow: 0 0 6px rgba(0,255,255,0.5);
 }
-.detail-pane button {
-  align-self: flex-end;
+
+.detail-pane .close-btn {
   background: none;
-  border: none;
-  font-size: 20px;
+  border: 1px solid rgba(0,255,255,0.3);
+  color: var(--neon);
+  border-radius: 6px;
+  width: 34px;
+  height: 34px;
   cursor: pointer;
+  font-size: 18px;
+  transition: all 0.15s ease;
+}
+.detail-pane .close-btn:hover {
+  background: rgba(0,255,255,0.1);
+  box-shadow: 0 0 6px rgba(0,255,255,0.5);
+}
+
+.detail-body {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+  max-height: 56vh;
+  overflow-y: auto;
 }

@@ -1,18 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>MGP16X Interactive Guide</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mixer Interactive Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<h1>MGP16X Mixer Interactive Guide</h1>
+  <h1>MGP16X Mixer Interactive Guide</h1>
+  <p class="lead">Hover controls to see a short tooltip. Click any control to open the full detail pane. Press Esc or click outside to close.</p>
 
-<!-- Tooltip div -->
-<div id="tooltip" class="tooltip"></div>
-
-<!-- Inline the SVG -->
-<svg id="mixer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1922 2000">
+  <div class="svg-wrap">
+    <svg id="mixer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1922 2000">
   <image href="resources\images\Mixer_Top_View.avif" x="0" y="0" width="1922" height="2000"/>
 
   <g id="Hotspots">
@@ -385,46 +384,23 @@
         <rect id="level_slider-17" data-name="level slider" class="hotspot" x="1621.34" y="1432.59" width="50.72" height="282.21" data-tooltip="Level: Controls stereo output level." data-detail="Stereo Output Level Slider controls the volume of the main stereo output. Adjust to set the overall mix level for the audience or recording."/>
         </g>
     </g>
-</svg>
+    </svg>
+  </div>
 
-<!--tooltip pane-->
-<div id="detail-pane" class="detail-pane">
-  <button id="close-pane">×</button>
-  <h2 id="detail-title"></h2>
-  <p id="detail-text"></p>
-</div>
+  <!-- Tooltip -->
+  <div id="tooltip" class="tooltip">
+    <div class="title"></div>
+    <div class="body"></div>
+  </div>
 
-<!-- Tooltip script -->
-<script>
-const detailPane = document.getElementById('detail-pane');
-const detailTitle = document.getElementById('detail-title');
-const detailText = document.getElementById('detail-text');
-const closePane = document.getElementById('close-pane');
-
-// Tooltip stays as is
-document.querySelectorAll('.hotspot').forEach(el => {
-  el.addEventListener('mousemove', e => {
-    tooltip.style.left = e.pageX + 10 + 'px';
-    tooltip.style.top = e.pageY + 10 + 'px';
-    tooltip.textContent = el.dataset.tooltip;
-    tooltip.style.display = 'block';
-  });
-  el.addEventListener('mouseleave', () => {
-    tooltip.style.display = 'none';
-  });
-
-  // New: open detail pane on click
-  el.addEventListener('click', () => {
-    detailTitle.textContent = el.id.replace(/_/g, ' '); // fallback title
-    detailText.textContent = el.dataset.detail || el.dataset.tooltip;
-    detailPane.style.display = 'flex';
-  });
-});
-
-// Close button
-closePane.addEventListener('click', () => {
-  detailPane.style.display = 'none';
-});
-</script>
+  <!-- Detail pane -->
+  <aside id="detail-pane" class="detail-pane" aria-hidden="true" aria-labelledby="detail-title" role="dialog">
+    <header>
+      <h2 id="detail-title"></h2>
+      <button id="close-pane" class="close-btn" aria-label="Close details">×</button>
+    </header>
+    <div id="detail-text" class="detail-body"></div>
+  </aside>
+<script src="script.js"></script>
 </body>
 </html>
